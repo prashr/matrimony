@@ -1,5 +1,23 @@
 <!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
 <web-app>
+
+	<!--<servlet>-->
+	<!--<servlet-name>offercomb</servlet-name>-->
+	<!--<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>-->
+	<!--<load-on-startup>1</load-on-startup>-->
+	<!--</servlet>-->
+
+	<!--&lt;!&ndash; Map all requests to the DispatcherServlet for handling &ndash;&gt;-->
+	<!--<servlet-mapping>-->
+	<!--<servlet-name>matrimony</servlet-name>-->
+	<!--<url-pattern>*.html</url-pattern>-->
+	<!--</servlet-mapping>-->
+
+	<!--&lt;!&ndash; Bootstraps the root web application context before servlet initialization &ndash;&gt;-->
+	<!--<listener>-->
+	<!--<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>-->
+	<!--</listener>-->
+
 	<error-page>
 		<error-code>500</error-code>
 		<location>/pageError500.do</location>
